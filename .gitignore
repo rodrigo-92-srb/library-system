@@ -1,0 +1,20 @@
+# Arquivos de compilação
+bin/
+target/
+
+# Arquivos de configuração
+*.class
+*.jar
+*.war
+*.ear
+
+# Arquivos de IDE
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Arquivos temporários
+*.tmp
+*.tmp.*
