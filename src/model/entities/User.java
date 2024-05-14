@@ -10,6 +10,8 @@ public class User {
 	
 	private Role role;
 	
+	private Status status;
+	
 	public User(String name, Role role) {
 		this.name = name;
 		this.role = role; 
@@ -35,5 +37,13 @@ public class User {
 	public void setRole(Role role) {
 		this.role = role;
 	}
-		
+
+	public Status getStatus() {
+		return status;
+	}
+
+	public void setStatus(Status status) {
+		this.status = status;
+	}
+	
 }

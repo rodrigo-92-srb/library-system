@@ -10,6 +10,8 @@ public class Book {
 	
 	private int releaseYear;
 	
+	private Status status;
+	
 	public Book(String title, Author author, Genre genre, int releaseYear) {
 		this.title = title;
 		this.author = author;
@@ -47,6 +49,14 @@ public class Book {
 
 	public void setReleaseDate(int releaseYear) {
 		this.releaseYear = releaseYear;
+	}
+
+	public Status getStatus() {
+		return status;
+	}
+
+	public void setStatus(Status status) {
+		this.status = status;
 	}
 	
 }
